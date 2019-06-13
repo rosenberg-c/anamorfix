@@ -17,7 +17,8 @@ This creates a "resized" folder in the specified path, and place dequeezed image
 ## Dependencies
 
 ```
-$ pip install pillow
+$ virtualenv -p python3 venv
+$ pip3 install Pillow
 ```
 
 
