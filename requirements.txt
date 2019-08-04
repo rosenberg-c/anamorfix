@@ -5,3 +5,13 @@
 #    pip-compile
 #
 pillow==6.0.0
+
+# ANAMORFIX
+anamorfix>=0.0.0
+# This dependency is required when updating the package locally
+
+# When installing for the first time, we need to temporarily 
+# comment this dependency out, or else the install script will
+# fail on not finding anamorfix.
+
+
